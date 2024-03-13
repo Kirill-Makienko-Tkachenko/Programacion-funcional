@@ -1,0 +1,11 @@
+#lang racket/base
+
+;Suma de elementos
+
+(define (suma-elementos 'lst)
+  (if (null? lst)
+      0
+      (+ (car lst) (suma-elementos (cdr lst)))))
+
+(define x (suma elementos 1 2 3))
+(display x)
