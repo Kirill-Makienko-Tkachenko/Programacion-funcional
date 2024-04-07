@@ -54,7 +54,7 @@
 
 ;Sortear
 
-;de https://gist.github.com/lambrospetrou/970bcf188eb6061e1bfbfa9e36c29042
+;Algoritmo quicksort de https://gist.github.com/lambrospetrou/970bcf188eb6061e1bfbfa9e36c29042
 (define (qsrt iarr lt)
   (cond
     [(> (length iarr) 1)

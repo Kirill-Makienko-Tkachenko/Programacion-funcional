@@ -1,0 +1,11 @@
+#lang racket/base
+; Fahrenheit
+
+(define (fahrenheit-a-celsius f)
+  (* (/ (- f 32) 9) 5))
+
+(define temperatura-fahrenheit 68)
+(define temperatura-celsius (fahrenheit-a-celsius temperatura-fahrenheit))
+(display "La temperatura en grados Celsius es: ")
+(display temperatura-celsius)
+(newline)
